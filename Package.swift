@@ -21,13 +21,14 @@ let package = Package(
                 .linkedFramework("AdSupport"),
                 .linkedFramework("Network"),
                 .linkedFramework("OSLog"),
+                .linkedFramework("MetricKit"),
                 .linkedLibrary("z"),
             ]
         ),
         .binaryTarget(
             name: "XMediator",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediator/XMediator-1.177.2.zip",
-            checksum: "c6595b7c57bcfd8fd66193d5ae62b169570082a41856cc0f3ee122a9e2f31e3b"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediator/XMediator-1.181.1.zip",
+            checksum: "c6a035d1fcf79aeb2d82636fa124f8c5c32a9b145119c70a0b14f76030c64d82"
         ),
         .binaryTarget(
             name: "XMediatorSQLite",
